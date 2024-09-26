@@ -1,0 +1,13 @@
+{
+  "name": "grokking-algorithms",
+  "version": "1.0.0",
+  "keywords": [
+    "algorithms"
+  ],
+  "author": {
+    "name": "Zayniddin Otabaev",
+    "email": "zayniddindev@gmail.com",
+    "url": "https://github.com/zayniddindev"
+  },
+  "license": "ISC"
+}
