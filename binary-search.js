@@ -1,5 +1,5 @@
 const sortedArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-const wantedNumber = 21;
+const wantedNumber = 3;
 
 /**
  * @param {T[]} sortedArray
@@ -10,7 +10,7 @@ const binarySearch = (sortedArray, wantedNumber) => {
   let low = 0;
   let high = sortedArray.length - 1;
   while (low <= high) {
-    const mid = Math.floor(low + high);
+    const mid = Math.floor((low + high) / 2);
     const guess = sortedArray[mid];
     if (guess == wantedNumber) {
       return mid;
